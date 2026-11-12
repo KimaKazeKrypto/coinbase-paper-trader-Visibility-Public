@@ -1,0 +1,2 @@
+timestamp_utc,candle,net_equity_aud,cash_aud,held_product,decision
+2026-11-12T22:59:46Z,1794517200,1000.0,1000.0,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
