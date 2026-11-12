@@ -1,0 +1,18 @@
+{
+  "products": ["BTC-USD", "LTC-USD", "ADA-USD"],
+  "starting_balance_aud": 1000,
+  "run_days": 30,
+  "estimated_taker_fee_rate": 0.006,
+  "estimated_slippage_rate": 0.001,
+  "max_position_fraction": 0.35,
+  "max_trade_risk_fraction": 0.01,
+  "max_spread_fraction": 0.005,
+  "max_entries_per_24h": 2,
+  "max_drawdown_fraction": 0.08,
+  "daily_loss_pause_fraction": 0.02,
+  "stop_loss_fraction": 0.035,
+  "take_profit_fraction": 0.065,
+  "trailing_stop_fraction": 0.035,
+  "minimum_trade_aud": 30,
+  "cooldown_hours": 4
+}
