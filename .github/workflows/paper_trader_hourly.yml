@@ -1,0 +1,68 @@
+name: BTC + LTC + ADA Paper Trader (NO LIVE ORDERS)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+concurrency:
+  group: three-coin-simulator-only
+  cancel-in-progress: false
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run safety tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Update simulated trades
+        run: python paper_agent.py
+
+      - name: Save trading reports
+        run: |
+          git config user.name 'read-only-paper-simulator'
+          git config user.email 'read-only-paper-simulator@users.noreply.github.com'
+          git add data/state.json data/trades.csv data/hourly_history.csv data/checkin.json CHECKIN.md REPORT.md index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update paper trading data [skip ci]'
+            git push
+          fi
+
+      - name: Prepare dashboard
+        run: |
+          mkdir -p public/data
+          cp index.html CHECKIN.md REPORT.md public/
+          cp data/trades.csv data/hourly_history.csv data/checkin.json public/data/
+          touch public/.nojekyll
+
+      - name: Upload dashboard
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+
+  deploy:
+    needs: simulate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
