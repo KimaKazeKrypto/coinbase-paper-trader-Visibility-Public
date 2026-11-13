@@ -5,7 +5,7 @@
 Status: **ACTIVE**  
 Started: 13 Nov 2026 08:59 AM AEST  
 Ends: 13 Dec 2026 08:59 AM AEST  
-Last checked: 13 Nov 2026 11:27 PM AEST  
+Last checked: 14 Nov 2026 01:04 AM AEST  
 Decision: **HOLD CASH: no qualifying signal with acceptable bid–ask spread**
 
 ## Account (Australian dollars)
@@ -26,12 +26,12 @@ Decision: **HOLD CASH: no qualifying signal with acceptable bid–ask spread**
 | Closed-trade win rate | Not enough trades |
 | Mean profit per closed trade | Not enough trades |
 | Estimated fees + quoted spread + extra slippage | A$0.00 |
-| Passive BTC reference liquidation | A$956.45 |
+| Passive BTC reference liquidation | A$954.92 |
 
 ## Market-session context (clock-time proxies only)
 
-Current approximation: **London hours**, Brisbane time **13 Nov 2026 11:27 PM AEST**.  
-Tokyo: Fri 22:27 JST · London: Fri 13:27 GMT · New York: Fri 08:27 EST.
+Current approximation: **London–New York overlap**, Brisbane time **14 Nov 2026 01:04 AM AEST**.  
+Tokyo: Sat 00:04 JST · London: Fri 15:04 GMT · New York: Fri 10:04 EST.
 
 | Entry-window label | Closed trades | Net P/L | Win rate |
 |---|---:|---:|---:|
@@ -41,11 +41,11 @@ Tokyo: Fri 22:27 JST · London: Fri 13:27 GMT · New York: Fri 08:27 EST.
 
 ## Public market prices used (USD source, AUD reference conversion)
 
-- BTC-USD: Coinbase US$69,186.72000, indicative A$101,434.90 per coin; bid–ask spread 0.000%
-- LTC-USD: Coinbase US$49.37900, indicative A$72.39 per coin; bid–ask spread 0.020%
-- ADA-USD: Coinbase US$0.17137, indicative A$0.25 per coin; bid–ask spread 0.012%
+- BTC-USD: Coinbase US$68,717.60000, indicative A$101,272.73 per coin; bid–ask spread 0.000%
+- LTC-USD: Coinbase US$49.42100, indicative A$72.83 per coin; bid–ask spread 0.018%
+- ADA-USD: Coinbase US$0.17237, indicative A$0.25 per coin; bid–ask spread 0.035%
 
-Reference AUD/USD: **0.682080** dated 2026-11-12. Prices are indicative **converted proxies**, not guaranteed Coinbase AUD execution prices.
+Reference AUD/USD: **0.678540** dated 2026-11-13. Prices are indicative **converted proxies**, not guaranteed Coinbase AUD execution prices.
 
 ## Simulated trade ledger (last 40 events)
 
