@@ -5,8 +5,8 @@
 Status: **ACTIVE**  
 Started: 13 Nov 2026 08:59 AM AEST  
 Ends: 13 Dec 2026 08:59 AM AEST  
-Last checked: 14 Nov 2026 07:06 AM AEST  
-Decision: **HOLD CASH: no qualifying signal with acceptable bid–ask spread**
+Last checked: 14 Nov 2026 07:59 AM AEST  
+Decision: **HOLD CASH: no new aligned, closed hourly candle; no entry**
 
 ## Account (Australian dollars)
 
@@ -26,12 +26,12 @@ Decision: **HOLD CASH: no qualifying signal with acceptable bid–ask spread**
 | Closed-trade win rate | Not enough trades |
 | Mean profit per closed trade | Not enough trades |
 | Estimated fees + quoted spread + extra slippage | A$0.00 |
-| Passive BTC reference liquidation | A$952.08 |
+| Passive BTC reference liquidation | A$949.75 |
 
 ## Market-session context (clock-time proxies only)
 
-Current approximation: **Outside stock-hour windows**, Brisbane time **14 Nov 2026 07:06 AM AEST**.  
-Tokyo: Sat 06:06 JST · London: Fri 21:06 GMT · New York: Fri 16:06 EST.
+Current approximation: **Outside stock-hour windows**, Brisbane time **14 Nov 2026 07:59 AM AEST**.  
+Tokyo: Sat 06:59 JST · London: Fri 21:59 GMT · New York: Fri 16:59 EST.
 
 | Entry-window label | Closed trades | Net P/L | Win rate |
 |---|---:|---:|---:|
@@ -41,9 +41,9 @@ Tokyo: Sat 06:06 JST · London: Fri 21:06 GMT · New York: Fri 16:06 EST.
 
 ## Public market prices used (USD source, AUD reference conversion)
 
-- BTC-USD: Coinbase US$68,512.68000, indicative A$100,970.73 per coin; bid–ask spread 0.000%
-- LTC-USD: Coinbase US$49.39900, indicative A$72.80 per coin; bid–ask spread 0.030%
-- ADA-USD: Coinbase US$0.16883, indicative A$0.25 per coin; bid–ask spread 0.036%
+- BTC-USD: Coinbase US$68,345.00000, indicative A$100,723.61 per coin; bid–ask spread 0.000%
+- LTC-USD: Coinbase US$49.35300, indicative A$72.73 per coin; bid–ask spread 0.024%
+- ADA-USD: Coinbase US$0.16827, indicative A$0.25 per coin; bid–ask spread 0.006%
 
 Reference AUD/USD: **0.678540** dated 2026-11-13. Prices are indicative **converted proxies**, not guaranteed Coinbase AUD execution prices.
 

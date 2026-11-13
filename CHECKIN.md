@@ -2,10 +2,10 @@
 
 > PAPER TRADING ONLY. No Coinbase account connected. No real orders.
 
-Last market check: **14 Nov 2026 07:06 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
+Last market check: **14 Nov 2026 07:59 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
 
 **Status:** ACTIVE (from 13 Nov 2026 08:59 AM AEST to 13 Dec 2026 08:59 AM AEST)  
-**Last decision:** HOLD CASH: no qualifying signal with acceptable bid–ask spread
+**Last decision:** HOLD CASH: no new aligned, closed hourly candle; no entry
 
 | What to report | Current simulation |
 |---|---:|
@@ -24,12 +24,12 @@ Last market check: **14 Nov 2026 07:06 AM AEST**. If this time is not recent, th
 | Closed-trade win rate | Not enough trades |
 | Net mean per completed trade | Not enough trades |
 | Fees + bid–ask effects + extra slippage estimate | A$0.00 |
-| BTC passive reference liquidation | A$952.08 |
+| BTC passive reference liquidation | A$949.75 |
 | Desired monthly net profit (not guaranteed) | A$50 to A$100 |
 
 ## Regional market-clock context
 
-**Current stock-hours proxy:** Outside stock-hour windows. Tokyo Sat 06:06 JST, London Fri 21:06 GMT, New York Fri 16:06 EST.  
+**Current stock-hours proxy:** Outside stock-hour windows. Tokyo Sat 06:59 JST, London Fri 21:59 GMT, New York Fri 16:59 EST.  
 **Weekend by UTC:** No. Stock markets have holidays and closures; the agent does not check those calendars. **Crypto is open 24/7**. This context does not trigger a purchase or promise better results.
 
 | Entry window | Completed trades | Net profit/loss |
