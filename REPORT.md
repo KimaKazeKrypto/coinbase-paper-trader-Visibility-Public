@@ -5,8 +5,8 @@
 Status: **ACTIVE**  
 Started: 13 Nov 2026 08:59 AM AEST  
 Ends: 13 Dec 2026 08:59 AM AEST  
-Last checked: 15 Nov 2026 12:55 AM AEST  
-Decision: **HOLD CASH: no new aligned, closed hourly candle; no entry**
+Last checked: 15 Nov 2026 01:54 AM AEST  
+Decision: **HOLD CASH: no qualifying signal with acceptable bid–ask spread**
 
 ## Account (Australian dollars)
 
@@ -26,12 +26,12 @@ Decision: **HOLD CASH: no new aligned, closed hourly candle; no entry**
 | Closed-trade win rate | Not enough trades |
 | Mean profit per closed trade | Not enough trades |
 | Estimated fees + quoted spread + extra slippage | A$0.00 |
-| Passive BTC reference liquidation | A$915.07 |
+| Passive BTC reference liquidation | A$911.33 |
 
 ## Market-session context (clock-time proxies only)
 
-Current approximation: **Outside stock-hour windows**, Brisbane time **15 Nov 2026 12:55 AM AEST**.  
-Tokyo: Sat 23:55 JST · London: Sat 14:55 GMT · New York: Sat 09:55 EST.
+Current approximation: **Outside stock-hour windows**, Brisbane time **15 Nov 2026 01:54 AM AEST**.  
+Tokyo: Sun 00:54 JST · London: Sat 15:54 GMT · New York: Sat 10:54 EST.
 
 | Entry-window label | Closed trades | Net P/L | Win rate |
 |---|---:|---:|---:|
@@ -41,9 +41,9 @@ Tokyo: Sat 23:55 JST · London: Sat 14:55 GMT · New York: Sat 09:55 EST.
 
 ## Public market prices used (USD source, AUD reference conversion)
 
-- BTC-USD: Coinbase US$65,849.50000, indicative A$97,045.86 per coin; bid–ask spread 0.000%
-- LTC-USD: Coinbase US$46.46700, indicative A$68.48 per coin; bid–ask spread 0.024%
-- ADA-USD: Coinbase US$0.15767, indicative A$0.23 per coin; bid–ask spread 0.019%
+- BTC-USD: Coinbase US$65,580.82000, indicative A$96,649.90 per coin; bid–ask spread 0.000%
+- LTC-USD: Coinbase US$46.05300, indicative A$67.87 per coin; bid–ask spread 0.030%
+- ADA-USD: Coinbase US$0.15720, indicative A$0.23 per coin; bid–ask spread 0.019%
 
 Reference AUD/USD: **0.678540** dated 2026-11-13. Prices are indicative **converted proxies**, not guaranteed Coinbase AUD execution prices.
 
