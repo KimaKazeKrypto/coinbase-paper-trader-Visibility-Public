@@ -5,8 +5,8 @@
 Status: **ACTIVE**  
 Started: 13 Nov 2026 08:59 AM AEST  
 Ends: 13 Dec 2026 08:59 AM AEST  
-Last checked: 14 Nov 2026 07:03 PM AEST  
-Decision: **HOLD CASH: no qualifying signal with acceptable bid–ask spread**
+Last checked: 14 Nov 2026 07:59 PM AEST  
+Decision: **HOLD CASH: no new aligned, closed hourly candle; no entry**
 
 ## Account (Australian dollars)
 
@@ -26,12 +26,12 @@ Decision: **HOLD CASH: no qualifying signal with acceptable bid–ask spread**
 | Closed-trade win rate | Not enough trades |
 | Mean profit per closed trade | Not enough trades |
 | Estimated fees + quoted spread + extra slippage | A$0.00 |
-| Passive BTC reference liquidation | A$931.23 |
+| Passive BTC reference liquidation | A$936.00 |
 
 ## Market-session context (clock-time proxies only)
 
-Current approximation: **Outside stock-hour windows**, Brisbane time **14 Nov 2026 07:03 PM AEST**.  
-Tokyo: Sat 18:03 JST · London: Sat 09:03 GMT · New York: Sat 04:03 EST.
+Current approximation: **Outside stock-hour windows**, Brisbane time **14 Nov 2026 07:59 PM AEST**.  
+Tokyo: Sat 18:59 JST · London: Sat 09:59 GMT · New York: Sat 04:59 EST.
 
 | Entry-window label | Closed trades | Net P/L | Win rate |
 |---|---:|---:|---:|
@@ -41,9 +41,9 @@ Tokyo: Sat 18:03 JST · London: Sat 09:03 GMT · New York: Sat 04:03 EST.
 
 ## Public market prices used (USD source, AUD reference conversion)
 
-- BTC-USD: Coinbase US$67,012.36000, indicative A$98,759.63 per coin; bid–ask spread 0.000%
-- LTC-USD: Coinbase US$48.13200, indicative A$70.93 per coin; bid–ask spread 0.025%
-- ADA-USD: Coinbase US$0.16296, indicative A$0.24 per coin; bid–ask spread 0.025%
+- BTC-USD: Coinbase US$67,356.01000, indicative A$99,266.09 per coin; bid–ask spread 0.000%
+- LTC-USD: Coinbase US$48.47600, indicative A$71.44 per coin; bid–ask spread 0.023%
+- ADA-USD: Coinbase US$0.16392, indicative A$0.24 per coin; bid–ask spread 0.006%
 
 Reference AUD/USD: **0.678540** dated 2026-11-13. Prices are indicative **converted proxies**, not guaranteed Coinbase AUD execution prices.
 
