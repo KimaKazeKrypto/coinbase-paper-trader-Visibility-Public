@@ -420,6 +420,14 @@
       "cash_aud": 1000.0,
       "held_product": "",
       "decision": "HOLD CASH: no qualifying signal with acceptable bid\u2013ask spread"
+    },
+    {
+      "timestamp_utc": "2026-11-15T10:00:37Z",
+      "candle": 1794729600,
+      "net_equity_aud": 1000.0,
+      "cash_aud": 1000.0,
+      "held_product": "",
+      "decision": "HOLD CASH: no new aligned, closed hourly candle; no entry"
     }
   ],
   "signal_log": [
@@ -3322,35 +3330,35 @@
       }
     }
   ],
-  "last_reason": "HOLD CASH: no qualifying signal with acceptable bid\u2013ask spread",
+  "last_reason": "HOLD CASH: no new aligned, closed hourly candle; no entry",
   "last_market": {
-    "time_utc": "2026-11-15T09:03:12Z",
+    "time_utc": "2026-11-15T10:00:37Z",
     "aud_usd_reference": 0.67854,
     "fx_date": "2026-11-13",
     "prices": {
       "BTC-USD": {
-        "usd": 65559.26,
-        "aud_proxy": 96618.1212603531,
-        "bid_aud": 96622.07091696879,
-        "ask_aud": 96625.12158457864,
-        "spread_fraction": 3.157269785259795e-05,
-        "ticker_time_utc": "2026-11-15T09:03:11Z"
+        "usd": 65314.12,
+        "aud_proxy": 96256.84558021635,
+        "bid_aud": 96255.38656527249,
+        "ask_aud": 96255.8876411118,
+        "spread_fraction": 5.205677863525247e-06,
+        "ticker_time_utc": "2026-11-15T10:00:37Z"
       },
       "LTC-USD": {
-        "usd": 45.399,
-        "aud_proxy": 66.90688831903793,
-        "bid_aud": 66.83320069561115,
-        "ask_aud": 66.84941197276505,
-        "spread_fraction": 0.00024253381693112669,
-        "ticker_time_utc": "2026-11-15T09:03:09Z"
+        "usd": 45.509,
+        "aud_proxy": 67.06900109057682,
+        "bid_aud": 67.0468948035488,
+        "ask_aud": 67.06605358563975,
+        "spread_fraction": 0.00028571114603132106,
+        "ticker_time_utc": "2026-11-15T10:00:31Z"
       },
       "ADA-USD": {
-        "usd": 0.15288,
-        "aud_proxy": 0.2253072773896896,
-        "bid_aud": 0.22515990214283607,
-        "ask_aud": 0.22526306481563357,
-        "spread_fraction": 0.0004580702156202892,
-        "ticker_time_utc": "2026-11-15T09:03:09Z"
+        "usd": 0.15292,
+        "aud_proxy": 0.22536622748843102,
+        "bid_aud": 0.22535148996374565,
+        "ask_aud": 0.2254399151118578,
+        "spread_fraction": 0.0003923107100824147,
+        "ticker_time_utc": "2026-11-15T10:00:37Z"
       }
     }
   },
