@@ -76,3 +76,4 @@ timestamp_utc,candle,net_equity_aud,cash_aud,held_product,decision
 2026-11-16T20:12:29Z,1794855600,1000.0,1000.0,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
 2026-11-16T21:04:11Z,1794859200,1000.0,1000.0,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
 2026-11-16T22:03:43Z,1794862800,997.4247470700539,814.8148148148148,BTC-USD,BUY BTC: strongest qualifying signal (score 0.98)
+2026-11-16T23:01:25Z,1794862800,996.9072701693182,814.8148148148148,BTC-USD,HOLD BTC: risk checks passed; awaiting a new closed candle for trend signals
