@@ -2,7 +2,7 @@
 
 > PAPER TRADING ONLY. No Coinbase account connected. No real orders.
 
-Last market check: **16 Nov 2026 09:57 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
+Last market check: **16 Nov 2026 11:43 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
 
 **Status:** ACTIVE (from 13 Nov 2026 08:59 AM AEST to 13 Dec 2026 08:59 AM AEST)  
 **Last decision:** HOLD CASH: no qualifying signal with acceptable bid–ask spread
@@ -24,13 +24,13 @@ Last market check: **16 Nov 2026 09:57 AM AEST**. If this time is not recent, th
 | Closed-trade win rate | Not enough trades |
 | Net mean per completed trade | Not enough trades |
 | Fees + bid–ask effects + extra slippage estimate | A$0.00 |
-| BTC passive reference liquidation | A$906.34 |
+| BTC passive reference liquidation | A$898.60 |
 | Desired monthly net profit (not guaranteed) | A$50 to A$100 |
 
 ## Regional market-clock context
 
-**Current stock-hours proxy:** Outside stock-hour windows. Tokyo Mon 08:57 JST, London Sun 23:57 GMT, New York Sun 18:57 EST.  
-**Weekend by UTC:** Yes. Stock markets have holidays and closures; the agent does not check those calendars. **Crypto is open 24/7**. This context does not trigger a purchase or promise better results.
+**Current stock-hours proxy:** Tokyo hours. Tokyo Mon 10:43 JST, London Mon 01:43 GMT, New York Sun 20:43 EST.  
+**Weekend by UTC:** No. Stock markets have holidays and closures; the agent does not check those calendars. **Crypto is open 24/7**. This context does not trigger a purchase or promise better results.
 
 | Entry window | Completed trades | Net profit/loss |
 |---|---:|---:|
@@ -38,13 +38,13 @@ Last market check: **16 Nov 2026 09:57 AM AEST**. If this time is not recent, th
 
 ## Latest recorded trade signals
 
-Signals were last recorded: **16 Nov 2026 09:57 AM AEST**.
+Signals were last recorded: **16 Nov 2026 11:43 AM AEST**.
 
 | Permitted coin | Entry status | Signal score | RSI(14) | 24-hour momentum | Same-hour relative volume |
 |---|---|---:|---:|---:|---:|
-| BTC-USD | No signal | -100.00 | 50.5 | +2.69% | 0.77× |
-| LTC-USD | No signal | -100.00 | 57.7 | +3.47% | 0.80× |
-| ADA-USD | No signal | -100.00 | 64.2 | +6.66% | 0.43× |
+| BTC-USD | No signal | -100.00 | 38.1 | +2.34% | 1.85× |
+| LTC-USD | No signal | -100.00 | 40.3 | +3.42% | 1.10× |
+| ADA-USD | No signal | -100.00 | 44.5 | +4.84% | 1.19× |
 
 ## Most recent transactions
 
