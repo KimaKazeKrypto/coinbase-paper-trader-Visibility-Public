@@ -2,54 +2,56 @@
 
 > PAPER TRADING ONLY. No Coinbase account connected. No real orders.
 
-Last market check: **18 Nov 2026 02:13 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
+Last market check: **18 Nov 2026 03:22 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
 
 **Status:** ACTIVE (from 13 Nov 2026 08:59 AM AEST to 13 Dec 2026 08:59 AM AEST)  
-**Last decision:** HOLD ADA: risk checks passed
+**Last decision:** SELL ADA: Trend reversal; compare all three next hour
 
 | What to report | Current simulation |
 |---|---:|
 | Starting balance | A$1,000.00 |
-| Current estimated liquidation value | **A$990.34** |
-| Net profit or loss, including estimated exit costs | **A$-9.66 (-0.97%)** |
-| Simulated cash available | A$810.44 |
-| Current holding | 800.88264197 ADA |
-| Realised profit or loss on completed trades | A$-5.37 |
-| Estimated fees paid to date | A$3.29 |
-| Completed round-trip trades (winners) | 1 (0) |
-| Current drawdown from recorded peak | 0.97% |
-| Worst observed peak-to-trough drawdown | 0.97% |
-| Current portfolio exposure | 18.17% |
+| Current estimated liquidation value | **A$990.23** |
+| Net profit or loss, including estimated exit costs | **A$-9.77 (-0.98%)** |
+| Simulated cash available | A$990.23 |
+| Current holding | None (all cash) |
+| Realised profit or loss on completed trades | A$-9.77 |
+| Estimated fees paid to date | A$4.37 |
+| Completed round-trip trades (winners) | 2 (0) |
+| Current drawdown from recorded peak | 0.98% |
+| Worst observed peak-to-trough drawdown | 0.98% |
+| Current portfolio exposure | 0.00% |
 | Estimated risk limit per new trade, not guaranteed | 1.00% |
 | Closed-trade win rate | 0.0% |
-| Net mean per completed trade | A$-5.37 |
-| Fees + bid–ask effects + extra slippage estimate | A$3.84 |
-| BTC passive reference liquidation | A$898.25 |
+| Net mean per completed trade | A$-4.89 |
+| Fees + bid–ask effects + extra slippage estimate | A$5.15 |
+| BTC passive reference liquidation | A$894.17 |
 | Desired monthly net profit (not guaranteed) | A$50 to A$100 |
 
 ## Regional market-clock context
 
-**Current stock-hours proxy:** London–New York overlap. Tokyo Wed 01:13 JST, London Tue 16:13 GMT, New York Tue 11:13 EST.  
+**Current stock-hours proxy:** New York hours. Tokyo Wed 02:22 JST, London Tue 17:22 GMT, New York Tue 12:22 EST.  
 **Weekend by UTC:** No. Stock markets have holidays and closures; the agent does not check those calendars. **Crypto is open 24/7**. This context does not trigger a purchase or promise better results.
 
 | Entry window | Completed trades | Net profit/loss |
 |---|---:|---:|
+| London hours | 1 | A$-4.40 |
 | Outside stock-hour windows | 1 | A$-5.37 |
 
 ## Latest recorded trade signals
 
-Signals were last recorded: **18 Nov 2026 02:13 AM AEST**.
+Signals were last recorded: **18 Nov 2026 03:22 AM AEST**.
 
 | Permitted coin | Entry status | Signal score | RSI(14) | 24-hour momentum | Same-hour relative volume |
 |---|---|---:|---:|---:|---:|
-| BTC-USD | No signal | -100.00 | 42.5 | -0.55% | 1.60× |
-| LTC-USD | No signal | -100.00 | 44.4 | -0.10% | 0.91× |
-| ADA-USD | No signal | -100.00 | 46.9 | -0.05% | 1.33× |
+| BTC-USD | No signal | -100.00 | 41.2 | -1.84% | 1.62× |
+| LTC-USD | No signal | -100.00 | 42.9 | -1.41% | 0.50× |
+| ADA-USD | No signal | -100.00 | 44.5 | -1.32% | 1.43× |
 
 ## Most recent transactions
 
 | Brisbane time | Action | Closed net P/L | Estimated fee | Explanation |
 |---|---|---:|---:|---|
+| 18 Nov 2026 03:22 AM AEST | SELL ADA-USD | A$-4.40 | A$1.09 | Trend reversal |
 | 17 Nov 2026 10:03 PM AEST | BUY ADA-USD | Position opened | A$1.10 | Best of three momentum signals; score 1.26; Too little closed-trade evidence to adapt |
 | 17 Nov 2026 01:03 PM AEST | SELL BTC-USD | A$-5.37 | A$1.09 | Trend reversal |
 | 17 Nov 2026 08:03 AM AEST | BUY BTC-USD | Position opened | A$1.10 | Best of three momentum signals; score 0.98; Too little closed-trade evidence to adapt |
