@@ -86,3 +86,4 @@ timestamp_utc,candle,net_equity_aud,cash_aud,held_product,decision
 2026-11-17T08:30:12Z,1794898800,994.627726235775,994.627726235775,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
 2026-11-17T10:23:42Z,1794906000,994.627726235775,994.627726235775,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
 2026-11-17T12:03:55Z,1794913200,991.9963795778813,810.4374065624833,ADA-USD,BUY ADA: strongest qualifying signal (score 1.26)
+2026-11-17T13:29:37Z,1794916800,992.667294421439,810.4374065624833,ADA-USD,HOLD ADA: risk checks passed
