@@ -1,2 +1,3 @@
 timestamp_utc,product,side,market_session,weekend_utc,coin_quantity,reference_price_aud,simulated_fill_aud,estimated_fee_aud,closed_profit_aud,cash_after_aud,net_equity_after_aud,reason
 2026-11-16T22:03:43Z,BTC-USD,BUY,Outside stock-hour windows,False,0.0018988353416744088,96847.15685403901,96944.00401089304,1.1044842058758562,,814.8148148148148,997.4247470700539,Best of three momentum signals; score 0.98; Too little closed-trade evidence to adapt
+2026-11-17T03:03:48Z,BTC-USD,SELL,Outside stock-hour windows,False,0.0018988353416744088,95363.39283071367,95268.02943788296,1.0853898073699808,-5.372273764225042,994.627726235775,994.627726235775,Trend reversal

@@ -79,3 +79,4 @@ timestamp_utc,candle,net_equity_aud,cash_aud,held_product,decision
 2026-11-16T23:01:25Z,1794862800,996.9072701693182,814.8148148148148,BTC-USD,HOLD BTC: risk checks passed; awaiting a new closed candle for trend signals
 2026-11-16T23:56:13Z,1794866400,995.8128747565344,814.8148148148148,BTC-USD,HOLD BTC: risk checks passed
 2026-11-17T01:30:26Z,1794873600,994.8742275281331,814.8148148148148,BTC-USD,HOLD BTC: risk checks passed
+2026-11-17T03:03:48Z,1794880800,994.627726235775,994.627726235775,,SELL BTC: Trend reversal; compare all three next hour
