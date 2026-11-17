@@ -82,3 +82,4 @@ timestamp_utc,candle,net_equity_aud,cash_aud,held_product,decision
 2026-11-17T03:03:48Z,1794880800,994.627726235775,994.627726235775,,SELL BTC: Trend reversal; compare all three next hour
 2026-11-17T04:11:55Z,1794884400,994.627726235775,994.627726235775,,HOLD CASH: cooldown after last simulated trade
 2026-11-17T05:15:21Z,1794888000,994.627726235775,994.627726235775,,HOLD CASH: cooldown after last simulated trade
+2026-11-17T06:20:36Z,1794891600,994.627726235775,994.627726235775,,HOLD CASH: cooldown after last simulated trade
