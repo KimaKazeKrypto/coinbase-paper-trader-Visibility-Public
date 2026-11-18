@@ -106,3 +106,4 @@ timestamp_utc,candle,net_equity_aud,cash_aud,held_product,decision
 2026-11-18T15:14:06Z,1795010400,984.4657106452482,984.4657106452482,,SELL ADA: Trend reversal; compare all three next hour
 2026-11-18T16:19:54Z,1795014000,984.4657106452482,984.4657106452482,,HOLD CASH: cooldown after last simulated trade
 2026-11-18T18:06:01Z,1795021200,984.4657106452482,984.4657106452482,,HOLD CASH: cooldown after last simulated trade
+2026-11-18T19:15:30Z,1795024800,984.4657106452482,984.4657106452482,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
