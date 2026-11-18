@@ -2,55 +2,57 @@
 
 > PAPER TRADING ONLY. No Coinbase account connected. No real orders.
 
-Last market check: **18 Nov 2026 11:31 PM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
+Last market check: **19 Nov 2026 01:14 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
 
 **Status:** ACTIVE (from 13 Nov 2026 08:59 AM AEST to 13 Dec 2026 08:59 AM AEST)  
-**Last decision:** HOLD ADA: risk checks passed
+**Last decision:** SELL ADA: Trend reversal; compare all three next hour
 
 | What to report | Current simulation |
 |---|---:|
 | Starting balance | A$1,000.00 |
-| Current estimated liquidation value | **A$986.39** |
-| Net profit or loss, including estimated exit costs | **A$-13.61 (-1.36%)** |
-| Simulated cash available | A$806.85 |
-| Current holding | 790.80395288 ADA |
-| Realised profit or loss on completed trades | A$-9.77 |
-| Estimated fees paid to date | A$5.47 |
-| Completed round-trip trades (winners) | 2 (0) |
-| Current drawdown from recorded peak | 1.36% |
-| Worst observed peak-to-trough drawdown | 1.52% |
-| Current portfolio exposure | 18.20% |
+| Current estimated liquidation value | **A$984.47** |
+| Net profit or loss, including estimated exit costs | **A$-15.53 (-1.55%)** |
+| Simulated cash available | A$984.47 |
+| Current holding | None (all cash) |
+| Realised profit or loss on completed trades | A$-15.53 |
+| Estimated fees paid to date | A$6.54 |
+| Completed round-trip trades (winners) | 3 (0) |
+| Current drawdown from recorded peak | 1.55% |
+| Worst observed peak-to-trough drawdown | 1.55% |
+| Current portfolio exposure | 0.00% |
 | Estimated risk limit per new trade, not guaranteed | 1.00% |
 | Closed-trade win rate | 0.0% |
-| Net mean per completed trade | A$-4.89 |
-| Fees + bid–ask effects + extra slippage estimate | A$6.48 |
-| BTC passive reference liquidation | A$897.16 |
+| Net mean per completed trade | A$-5.18 |
+| Fees + bid–ask effects + extra slippage estimate | A$7.72 |
+| BTC passive reference liquidation | A$890.31 |
 | Desired monthly net profit (not guaranteed) | A$50 to A$100 |
 
 ## Regional market-clock context
 
-**Current stock-hours proxy:** London hours. Tokyo Wed 22:31 JST, London Wed 13:31 GMT, New York Wed 08:31 EST.  
+**Current stock-hours proxy:** London–New York overlap. Tokyo Thu 00:14 JST, London Wed 15:14 GMT, New York Wed 10:14 EST.  
 **Weekend by UTC:** No. Stock markets have holidays and closures; the agent does not check those calendars. **Crypto is open 24/7**. This context does not trigger a purchase or promise better results.
 
 | Entry window | Completed trades | Net profit/loss |
 |---|---:|---:|
 | London hours | 1 | A$-4.40 |
 | Outside stock-hour windows | 1 | A$-5.37 |
+| Tokyo hours | 1 | A$-5.76 |
 
 ## Latest recorded trade signals
 
-Signals were last recorded: **18 Nov 2026 11:31 PM AEST**.
+Signals were last recorded: **19 Nov 2026 01:14 AM AEST**.
 
 | Permitted coin | Entry status | Signal score | RSI(14) | 24-hour momentum | Same-hour relative volume |
 |---|---|---:|---:|---:|---:|
-| BTC-USD | No signal | -100.00 | 36.5 | -1.53% | 0.59× |
-| LTC-USD | No signal | -100.00 | 35.8 | -2.63% | 1.20× |
-| ADA-USD | No signal | -100.00 | 41.4 | -1.31% | 1.05× |
+| BTC-USD | No signal | -100.00 | 27.1 | -2.07% | 1.47× |
+| LTC-USD | No signal | -100.00 | 35.8 | -2.12% | 1.30× |
+| ADA-USD | No signal | -100.00 | 41.7 | -1.44% | 1.19× |
 
 ## Most recent transactions
 
 | Brisbane time | Action | Closed net P/L | Estimated fee | Explanation |
 |---|---|---:|---:|---|
+| 19 Nov 2026 01:14 AM AEST | SELL ADA-USD | A$-5.76 | A$1.07 | Trend reversal |
 | 18 Nov 2026 10:02 AM AEST | BUY ADA-USD | Position opened | A$1.09 | Best of three momentum signals; score 1.81; Too little closed-trade evidence to adapt |
 | 18 Nov 2026 03:22 AM AEST | SELL ADA-USD | A$-4.40 | A$1.09 | Trend reversal |
 | 17 Nov 2026 10:03 PM AEST | BUY ADA-USD | Position opened | A$1.10 | Best of three momentum signals; score 1.26; Too little closed-trade evidence to adapt |
