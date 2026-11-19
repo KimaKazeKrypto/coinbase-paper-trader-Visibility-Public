@@ -2,56 +2,57 @@
 
 > PAPER TRADING ONLY. No Coinbase account connected. No real orders.
 
-Last market check: **20 Nov 2026 12:27 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
+Last market check: **20 Nov 2026 02:19 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
 
 **Status:** ACTIVE (from 13 Nov 2026 08:59 AM AEST to 13 Dec 2026 08:59 AM AEST)  
-**Last decision:** HOLD LTC: risk checks passed
+**Last decision:** SELL LTC: Trend reversal; compare all three next hour
 
 | What to report | Current simulation |
 |---|---:|
 | Starting balance | A$1,000.00 |
-| Current estimated liquidation value | **A$981.06** |
-| Net profit or loss, including estimated exit costs | **A$-18.94 (-1.89%)** |
-| Simulated cash available | A$802.16 |
-| Current holding | 2.73420510 LTC |
-| Realised profit or loss on completed trades | A$-15.53 |
-| Estimated fees paid to date | A$7.63 |
-| Completed round-trip trades (winners) | 3 (0) |
-| Current drawdown from recorded peak | 1.89% |
-| Worst observed peak-to-trough drawdown | 1.89% |
-| Current portfolio exposure | 18.24% |
+| Current estimated liquidation value | **A$977.60** |
+| Net profit or loss, including estimated exit costs | **A$-22.40 (-2.24%)** |
+| Simulated cash available | A$977.60 |
+| Current holding | None (all cash) |
+| Realised profit or loss on completed trades | A$-22.40 |
+| Estimated fees paid to date | A$8.69 |
+| Completed round-trip trades (winners) | 4 (0) |
+| Current drawdown from recorded peak | 2.24% |
+| Worst observed peak-to-trough drawdown | 2.24% |
+| Current portfolio exposure | 0.00% |
 | Estimated risk limit per new trade, not guaranteed | 1.00% |
 | Closed-trade win rate | 0.0% |
-| Net mean per completed trade | A$-5.18 |
-| Fees + bid–ask effects + extra slippage estimate | A$9.03 |
-| BTC passive reference liquidation | A$893.82 |
+| Net mean per completed trade | A$-5.60 |
+| Fees + bid–ask effects + extra slippage estimate | A$10.33 |
+| BTC passive reference liquidation | A$886.11 |
 | Desired monthly net profit (not guaranteed) | A$50 to A$100 |
 
 ## Regional market-clock context
 
-**Current stock-hours proxy:** London hours. Tokyo Thu 23:27 JST, London Thu 14:27 GMT, New York Thu 09:27 EST.  
+**Current stock-hours proxy:** London–New York overlap. Tokyo Fri 01:19 JST, London Thu 16:19 GMT, New York Thu 11:19 EST.  
 **Weekend by UTC:** No. Stock markets have holidays and closures; the agent does not check those calendars. **Crypto is open 24/7**. This context does not trigger a purchase or promise better results.
 
 | Entry window | Completed trades | Net profit/loss |
 |---|---:|---:|
-| London hours | 1 | A$-4.40 |
+| London hours | 2 | A$-11.27 |
 | Outside stock-hour windows | 1 | A$-5.37 |
 | Tokyo hours | 1 | A$-5.76 |
 
 ## Latest recorded trade signals
 
-Signals were last recorded: **20 Nov 2026 12:27 AM AEST**.
+Signals were last recorded: **20 Nov 2026 02:19 AM AEST**.
 
 | Permitted coin | Entry status | Signal score | RSI(14) | 24-hour momentum | Same-hour relative volume |
 |---|---|---:|---:|---:|---:|
-| BTC-USD | Qualifies | 0.39 | 66.9 | +0.17% | 0.89× |
-| LTC-USD | Qualifies | 1.31 | 63.1 | +0.58% | 0.75× |
-| ADA-USD | No signal | -100.00 | 78.1 | +1.21% | 0.79× |
+| BTC-USD | No signal | -100.00 | 53.7 | -0.02% | 1.19× |
+| LTC-USD | No signal | -100.00 | 35.2 | -0.84% | 0.82× |
+| ADA-USD | No signal | -100.00 | 56.9 | +1.17% | 0.39× |
 
 ## Most recent transactions
 
 | Brisbane time | Action | Closed net P/L | Estimated fee | Explanation |
 |---|---|---:|---:|---|
+| 20 Nov 2026 02:19 AM AEST | SELL LTC-USD | A$-6.86 | A$1.06 | Trend reversal |
 | 19 Nov 2026 07:24 PM AEST | BUY LTC-USD | Position opened | A$1.09 | Best of three momentum signals; score 1.24; Too little closed-trade evidence to adapt |
 | 19 Nov 2026 01:14 AM AEST | SELL ADA-USD | A$-5.76 | A$1.07 | Trend reversal |
 | 18 Nov 2026 10:02 AM AEST | BUY ADA-USD | Position opened | A$1.09 | Best of three momentum signals; score 1.81; Too little closed-trade evidence to adapt |
