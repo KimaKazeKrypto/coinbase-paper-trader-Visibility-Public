@@ -124,3 +124,4 @@ timestamp_utc,candle,net_equity_aud,cash_aud,held_product,decision
 2026-11-19T16:19:43Z,1795100400,977.6015331336337,977.6015331336337,,SELL LTC: Trend reversal; compare all three next hour
 2026-11-19T18:06:33Z,1795107600,977.6015331336337,977.6015331336337,,HOLD CASH: cooldown after last simulated trade
 2026-11-19T19:17:44Z,1795111200,977.6015331336337,977.6015331336337,,HOLD CASH: cooldown after last simulated trade
+2026-11-19T21:06:30Z,1795118400,977.6015331336337,977.6015331336337,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
