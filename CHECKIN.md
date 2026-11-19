@@ -2,34 +2,34 @@
 
 > PAPER TRADING ONLY. No Coinbase account connected. No real orders.
 
-Last market check: **19 Nov 2026 05:39 PM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
+Last market check: **19 Nov 2026 07:24 PM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
 
 **Status:** ACTIVE (from 13 Nov 2026 08:59 AM AEST to 13 Dec 2026 08:59 AM AEST)  
-**Last decision:** HOLD CASH: no qualifying signal with acceptable bid–ask spread
+**Last decision:** BUY LTC: strongest qualifying signal (score 1.24)
 
 | What to report | Current simulation |
 |---|---:|
 | Starting balance | A$1,000.00 |
-| Current estimated liquidation value | **A$984.47** |
-| Net profit or loss, including estimated exit costs | **A$-15.53 (-1.55%)** |
-| Simulated cash available | A$984.47 |
-| Current holding | None (all cash) |
+| Current estimated liquidation value | **A$981.88** |
+| Net profit or loss, including estimated exit costs | **A$-18.12 (-1.81%)** |
+| Simulated cash available | A$802.16 |
+| Current holding | 2.73420510 LTC |
 | Realised profit or loss on completed trades | A$-15.53 |
-| Estimated fees paid to date | A$6.54 |
+| Estimated fees paid to date | A$7.63 |
 | Completed round-trip trades (winners) | 3 (0) |
-| Current drawdown from recorded peak | 1.55% |
-| Worst observed peak-to-trough drawdown | 1.55% |
-| Current portfolio exposure | 0.00% |
+| Current drawdown from recorded peak | 1.81% |
+| Worst observed peak-to-trough drawdown | 1.81% |
+| Current portfolio exposure | 18.30% |
 | Estimated risk limit per new trade, not guaranteed | 1.00% |
 | Closed-trade win rate | 0.0% |
 | Net mean per completed trade | A$-5.18 |
-| Fees + bid–ask effects + extra slippage estimate | A$7.72 |
-| BTC passive reference liquidation | A$890.39 |
+| Fees + bid–ask effects + extra slippage estimate | A$9.03 |
+| BTC passive reference liquidation | A$892.76 |
 | Desired monthly net profit (not guaranteed) | A$50 to A$100 |
 
 ## Regional market-clock context
 
-**Current stock-hours proxy:** Outside stock-hour windows. Tokyo Thu 16:39 JST, London Thu 07:39 GMT, New York Thu 02:39 EST.  
+**Current stock-hours proxy:** London hours. Tokyo Thu 18:24 JST, London Thu 09:24 GMT, New York Thu 04:24 EST.  
 **Weekend by UTC:** No. Stock markets have holidays and closures; the agent does not check those calendars. **Crypto is open 24/7**. This context does not trigger a purchase or promise better results.
 
 | Entry window | Completed trades | Net profit/loss |
@@ -40,18 +40,19 @@ Last market check: **19 Nov 2026 05:39 PM AEST**. If this time is not recent, th
 
 ## Latest recorded trade signals
 
-Signals were last recorded: **19 Nov 2026 05:39 PM AEST**.
+Signals were last recorded: **19 Nov 2026 07:24 PM AEST**.
 
 | Permitted coin | Entry status | Signal score | RSI(14) | 24-hour momentum | Same-hour relative volume |
 |---|---|---:|---:|---:|---:|
-| BTC-USD | No signal | -100.00 | 61.1 | -1.32% | 0.86× |
-| LTC-USD | No signal | -100.00 | 70.1 | +0.39% | 0.82× |
-| ADA-USD | No signal | -100.00 | 62.6 | +0.07% | 0.93× |
+| BTC-USD | No signal | -100.00 | 56.9 | -1.46% | 0.43× |
+| LTC-USD | Qualifies | 1.24 | 62.9 | +0.24% | 0.80× |
+| ADA-USD | Qualifies | 0.88 | 57.7 | -0.28% | 0.88× |
 
 ## Most recent transactions
 
 | Brisbane time | Action | Closed net P/L | Estimated fee | Explanation |
 |---|---|---:|---:|---|
+| 19 Nov 2026 07:24 PM AEST | BUY LTC-USD | Position opened | A$1.09 | Best of three momentum signals; score 1.24; Too little closed-trade evidence to adapt |
 | 19 Nov 2026 01:14 AM AEST | SELL ADA-USD | A$-5.76 | A$1.07 | Trend reversal |
 | 18 Nov 2026 10:02 AM AEST | BUY ADA-USD | Position opened | A$1.09 | Best of three momentum signals; score 1.81; Too little closed-trade evidence to adapt |
 | 18 Nov 2026 03:22 AM AEST | SELL ADA-USD | A$-4.40 | A$1.09 | Trend reversal |
