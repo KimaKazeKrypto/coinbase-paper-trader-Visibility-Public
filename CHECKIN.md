@@ -2,7 +2,7 @@
 
 > PAPER TRADING ONLY. No Coinbase account connected. No real orders.
 
-Last market check: **21 Nov 2026 02:14 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
+Last market check: **21 Nov 2026 03:16 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
 
 **Status:** ACTIVE (from 13 Nov 2026 08:59 AM AEST to 13 Dec 2026 08:59 AM AEST)  
 **Last decision:** HOLD CASH: no qualifying signal with acceptable bid–ask spread
@@ -24,12 +24,12 @@ Last market check: **21 Nov 2026 02:14 AM AEST**. If this time is not recent, th
 | Closed-trade win rate | 0.0% |
 | Net mean per completed trade | A$-5.60 |
 | Fees + bid–ask effects + extra slippage estimate | A$10.33 |
-| BTC passive reference liquidation | A$844.92 |
+| BTC passive reference liquidation | A$838.01 |
 | Desired monthly net profit (not guaranteed) | A$50 to A$100 |
 
 ## Regional market-clock context
 
-**Current stock-hours proxy:** London–New York overlap. Tokyo Sat 01:14 JST, London Fri 16:14 GMT, New York Fri 11:14 EST.  
+**Current stock-hours proxy:** New York hours. Tokyo Sat 02:16 JST, London Fri 17:16 GMT, New York Fri 12:16 EST.  
 **Weekend by UTC:** No. Stock markets have holidays and closures; the agent does not check those calendars. **Crypto is open 24/7**. This context does not trigger a purchase or promise better results.
 
 | Entry window | Completed trades | Net profit/loss |
@@ -40,13 +40,13 @@ Last market check: **21 Nov 2026 02:14 AM AEST**. If this time is not recent, th
 
 ## Latest recorded trade signals
 
-Signals were last recorded: **21 Nov 2026 02:14 AM AEST**.
+Signals were last recorded: **21 Nov 2026 03:16 AM AEST**.
 
 | Permitted coin | Entry status | Signal score | RSI(14) | 24-hour momentum | Same-hour relative volume |
 |---|---|---:|---:|---:|---:|
-| BTC-USD | No signal | -100.00 | 32.5 | -5.77% | 4.01× |
-| LTC-USD | No signal | -100.00 | 30.8 | -7.96% | 3.33× |
-| ADA-USD | No signal | -100.00 | 23.6 | -8.23% | 3.68× |
+| BTC-USD | No signal | -100.00 | 24.7 | -5.16% | 3.87× |
+| LTC-USD | No signal | -100.00 | 24.4 | -6.95% | 2.03× |
+| ADA-USD | No signal | -100.00 | 20.9 | -7.71% | 2.71× |
 
 ## Most recent transactions
 
