@@ -148,3 +148,4 @@ timestamp_utc,candle,net_equity_aud,cash_aud,held_product,decision
 2026-11-21T00:00:10Z,1795212000,977.6015331336337,977.6015331336337,,"HOLD CASH: no new aligned, closed hourly candle; no entry"
 2026-11-21T01:31:32Z,1795219200,977.6015331336337,977.6015331336337,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
 2026-11-21T03:02:09Z,1795226400,977.6015331336337,977.6015331336337,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
+2026-11-21T04:09:06Z,1795230000,977.6015331336337,977.6015331336337,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
