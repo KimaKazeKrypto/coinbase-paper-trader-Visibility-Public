@@ -1466,6 +1466,14 @@
       "cash_aud": 977.6015331336337,
       "held_product": "",
       "decision": "HOLD CASH: no qualifying signal with acceptable bid\u2013ask spread"
+    },
+    {
+      "timestamp_utc": "2026-11-21T19:58:41Z",
+      "candle": 1795284000,
+      "net_equity_aud": 977.6015331336337,
+      "cash_aud": 977.6015331336337,
+      "held_product": "",
+      "decision": "HOLD CASH: no new aligned, closed hourly candle; no entry"
     }
   ],
   "signal_log": [
@@ -10983,35 +10991,35 @@
       }
     }
   ],
-  "last_reason": "HOLD CASH: no qualifying signal with acceptable bid\u2013ask spread",
+  "last_reason": "HOLD CASH: no new aligned, closed hourly candle; no entry",
   "last_market": {
-    "time_utc": "2026-11-21T19:06:05Z",
+    "time_utc": "2026-11-21T19:58:41Z",
     "aud_usd_reference": 0.66659,
     "fx_date": "2026-11-20",
     "prices": {
       "BTC-USD": {
-        "usd": 60282.85,
-        "aud_proxy": 90434.67498762357,
-        "bid_aud": 90438.95047930512,
-        "ask_aud": 90438.96548103032,
-        "spread_fraction": 1.6587680283472288e-07,
-        "ticker_time_utc": "2026-11-21T19:06:04Z"
+        "usd": 60217.15,
+        "aud_proxy": 90336.1136530701,
+        "bid_aud": 90336.0986513449,
+        "ask_aud": 90336.1136530701,
+        "spread_fraction": 1.6606566123381086e-07,
+        "ticker_time_utc": "2026-11-21T19:58:40Z"
       },
       "LTC-USD": {
-        "usd": 40.2,
-        "aud_proxy": 60.30693529755922,
-        "bid_aud": 60.29043339984098,
-        "ask_aud": 60.318936677717936,
-        "spread_fraction": 0.0004726544522805168,
-        "ticker_time_utc": "2026-11-21T19:06:04Z"
+        "usd": 40.058,
+        "aud_proxy": 60.09391079974197,
+        "bid_aud": 60.072908384464206,
+        "ask_aud": 60.09391079974197,
+        "spread_fraction": 0.00034955431824431097,
+        "ticker_time_utc": "2026-11-21T19:58:38Z"
       },
       "ADA-USD": {
-        "usd": 0.14553,
-        "aud_proxy": 0.2183201068122834,
-        "bid_aud": 0.2182000930106962,
-        "ask_aud": 0.21824509818629143,
-        "spread_fraction": 0.0002062351768466796,
-        "ticker_time_utc": "2026-11-21T19:05:59Z"
+        "usd": 0.14489,
+        "aud_proxy": 0.21735999639958595,
+        "bid_aud": 0.21732999294918914,
+        "ask_aud": 0.21735999639958595,
+        "spread_fraction": 0.00013804527885140976,
+        "ticker_time_utc": "2026-11-21T19:58:40Z"
       }
     }
   },
