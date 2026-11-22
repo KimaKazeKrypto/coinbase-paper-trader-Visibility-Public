@@ -5,47 +5,47 @@
 Status: **ACTIVE**  
 Started: 13 Nov 2026 08:59 AM AEST  
 Ends: 13 Dec 2026 08:59 AM AEST  
-Last checked: 22 Nov 2026 01:05 PM AEST  
-Decision: **HOLD ADA: risk checks passed**
+Last checked: 22 Nov 2026 02:12 PM AEST  
+Decision: **SELL ADA: Trend reversal; compare all three next hour**
 
 ## Account (Australian dollars)
 
 | Metric | Value |
 |---|---:|
 | Starting funds | A$1,000.00 |
-| Simulated available cash | A$796.56 |
-| Single current position | 827.49676957 ADA |
-| **Estimated liquidation balance** | **A$970.93** |
-| **Profit/loss to date** | **A$-29.07 (-2.91%)** |
-| Estimated fees paid | A$9.77 |
-| Completed trades | 4 (0 winners) |
+| Simulated available cash | A$971.56 |
+| Single current position | None (all cash) |
+| **Estimated liquidation balance** | **A$971.56** |
+| **Profit/loss to date** | **A$-28.44 (-2.84%)** |
+| Estimated fees paid | A$10.82 |
+| Completed trades | 5 (0 winners) |
 | Target range, not a guarantee | A$1,050–A$1,100 |
 | Max observed drawdown | 2.91% |
-| Current account exposure | 17.96% |
+| Current account exposure | 0.00% |
 | Per-new-trade loss budget (estimated, not guaranteed) | 1.00% |
 | Closed-trade win rate | 0.0 |
-| Mean profit per closed trade | A$-5.60 |
-| Estimated fees + quoted spread + extra slippage | A$11.66 |
-| Passive BTC reference liquidation | A$837.91 |
+| Mean profit per closed trade | A$-5.69 |
+| Estimated fees + quoted spread + extra slippage | A$12.91 |
+| Passive BTC reference liquidation | A$840.20 |
 
 ## Market-session context (clock-time proxies only)
 
-Current approximation: **Outside stock-hour windows**, Brisbane time **22 Nov 2026 01:05 PM AEST**.  
-Tokyo: Sun 12:05 JST · London: Sun 03:05 GMT · New York: Sat 22:05 EST.
+Current approximation: **Outside stock-hour windows**, Brisbane time **22 Nov 2026 02:12 PM AEST**.  
+Tokyo: Sun 13:12 JST · London: Sun 04:12 GMT · New York: Sat 23:12 EST.
 
 | Entry-window label | Closed trades | Net P/L | Win rate |
 |---|---:|---:|---:|
 | London hours | 2 | A$-11.27 | 0.0% |
-| Outside stock-hour windows | 1 | A$-5.37 | 0.0% |
+| Outside stock-hour windows | 2 | A$-11.41 | 0.0% |
 | Tokyo hours | 1 | A$-5.76 | 0.0% |
 
 **Important:** Time windows describe typical stock trading hours, not crypto exchange opening times. Public holidays are not checked. Small sample sizes do not establish that any window is profitable. Same-hour volume comparisons remove some predictable daily volume seasonality; the agent does **not** auto-buy just because a session is open.
 
 ## Public market prices used (USD source, AUD reference conversion)
 
-- BTC-USD: Coinbase US$59,238.89000, indicative A$88,868.55 per coin; bid–ask spread 0.000%
-- LTC-USD: Coinbase US$39.29700, indicative A$58.95 per coin; bid–ask spread 0.038%
-- ADA-USD: Coinbase US$0.14145, indicative A$0.21 per coin; bid–ask spread 0.042%
+- BTC-USD: Coinbase US$59,396.81000, indicative A$89,105.46 per coin; bid–ask spread 0.000%
+- LTC-USD: Coinbase US$39.37600, indicative A$59.07 per coin; bid–ask spread 0.030%
+- ADA-USD: Coinbase US$0.14198, indicative A$0.21 per coin; bid–ask spread 0.028%
 
 Reference AUD/USD: **0.666590** dated 2026-11-20. Prices are indicative **converted proxies**, not guaranteed Coinbase AUD execution prices.
 
@@ -53,6 +53,7 @@ Reference AUD/USD: **0.666590** dated 2026-11-20. Prices are indicative **conver
 
 | Brisbane time | Side | Pair | Units | Simulated price (A$) | Estimated fee | Closed profit/loss | Decision reason |
 |---|---|---|---:|---:|---:|---:|---|
+| 22 Nov 2026 02:12 PM AEST | SELL | ADA-USD | 827.49676957 | A$0.21 | A$1.06 | A$-6.04 | Trend reversal |
 | 22 Nov 2026 07:56 AM AEST | BUY | ADA-USD | 827.49676957 | A$0.22 | A$1.08 | — | Best of three momentum signals; score 2.85; Too little closed-trade evidence to adapt |
 | 20 Nov 2026 02:19 AM AEST | SELL | LTC-USD | 2.73420510 | A$64.55 | A$1.06 | A$-6.86 | Trend reversal |
 | 19 Nov 2026 07:24 PM AEST | BUY | LTC-USD | 2.73420510 | A$66.28 | A$1.09 | — | Best of three momentum signals; score 1.24; Too little closed-trade evidence to adapt |
