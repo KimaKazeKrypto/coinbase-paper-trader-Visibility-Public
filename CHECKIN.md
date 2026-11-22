@@ -2,34 +2,34 @@
 
 > PAPER TRADING ONLY. No Coinbase account connected. No real orders.
 
-Last market check: **23 Nov 2026 05:07 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
+Last market check: **23 Nov 2026 06:00 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
 
 **Status:** ACTIVE (from 13 Nov 2026 08:59 AM AEST to 13 Dec 2026 08:59 AM AEST)  
-**Last decision:** HOLD BTC: risk checks passed
+**Last decision:** HOLD BTC: risk checks passed; awaiting a new closed candle for trend signals
 
 | What to report | Current simulation |
 |---|---:|
 | Starting balance | A$1,000.00 |
-| Current estimated liquidation value | **A$968.76** |
-| Net profit or loss, including estimated exit costs | **A$-31.24 (-3.12%)** |
+| Current estimated liquidation value | **A$968.73** |
+| Net profit or loss, including estimated exit costs | **A$-31.27 (-3.13%)** |
 | Simulated cash available | A$791.64 |
 | Current holding | 0.00196042 BTC |
 | Realised profit or loss on completed trades | A$-28.44 |
 | Estimated fees paid to date | A$11.89 |
 | Completed round-trip trades (winners) | 5 (0) |
-| Current drawdown from recorded peak | 3.12% |
-| Worst observed peak-to-trough drawdown | 3.12% |
+| Current drawdown from recorded peak | 3.13% |
+| Worst observed peak-to-trough drawdown | 3.13% |
 | Current portfolio exposure | 18.28% |
 | Estimated risk limit per new trade, not guaranteed | 1.00% |
 | Closed-trade win rate | 0.0% |
 | Net mean per completed trade | A$-5.69 |
 | Fees + bid–ask effects + extra slippage estimate | A$14.16 |
-| BTC passive reference liquidation | A$857.93 |
+| BTC passive reference liquidation | A$857.77 |
 | Desired monthly net profit (not guaranteed) | A$50 to A$100 |
 
 ## Regional market-clock context
 
-**Current stock-hours proxy:** Outside stock-hour windows. Tokyo Mon 04:07 JST, London Sun 19:07 GMT, New York Sun 14:07 EST.  
+**Current stock-hours proxy:** Outside stock-hour windows. Tokyo Mon 05:00 JST, London Sun 20:00 GMT, New York Sun 15:00 EST.  
 **Weekend by UTC:** Yes. Stock markets have holidays and closures; the agent does not check those calendars. **Crypto is open 24/7**. This context does not trigger a purchase or promise better results.
 
 | Entry window | Completed trades | Net profit/loss |
