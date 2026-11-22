@@ -9,14 +9,14 @@
     "ADA-USD"
   ],
   "currency": "AUD",
-  "last_checked_utc": "2026-11-22T14:13:54Z",
+  "last_checked_utc": "2026-11-22T15:05:23Z",
   "started_at_utc": "2026-11-12T22:59:46Z",
   "ends_at_utc": "2026-12-12T22:59:46Z",
   "status": "ACTIVE",
   "starting_balance_aud": 1000.0,
-  "net_liquidation_equity_aud": 968.86,
-  "net_profit_loss_aud": -31.14,
-  "net_return_pct": -3.114,
+  "net_liquidation_equity_aud": 969.51,
+  "net_profit_loss_aud": -30.49,
+  "net_return_pct": -3.049,
   "target_profit_aud": {
     "low": 50,
     "high": 100,
@@ -27,7 +27,7 @@
     "pair": "BTC-USD",
     "coin_quantity": 0.0019604184,
     "entry_cost_aud": 179.92,
-    "unrealised_after_exit_costs_aud": -2.7
+    "unrealised_after_exit_costs_aud": -2.05
   },
   "fees_paid_estimate_aud": 11.89,
   "slippage_each_side_pct": 0.1,
@@ -43,7 +43,7 @@
   "winning_closed_trades": 0,
   "realised_profit_loss_aud": -28.44,
   "peak_equity_aud": 1000.0,
-  "drawdown_from_peak_pct": 3.11,
+  "drawdown_from_peak_pct": 3.05,
   "last_decision": "HOLD BTC: risk checks passed",
   "market_session_context": {
     "label": "Outside stock-hour windows",
@@ -58,11 +58,11 @@
       "new_york": false
     },
     "weekend_utc": true,
-    "utc_hour": 14,
+    "utc_hour": 15,
     "local_clocks": {
-      "tokyo": "Sun 23:13 JST",
-      "london": "Sun 14:13 GMT",
-      "new_york": "Sun 09:13 EST"
+      "tokyo": "Mon 00:05 JST",
+      "london": "Sun 15:05 GMT",
+      "new_york": "Sun 10:05 EST"
     },
     "qualification": "Clock windows only: public holidays and exchange closures not verified; crypto trades 24/7."
   },
@@ -95,76 +95,76 @@
     "max_observed_drawdown_pct": 3.11,
     "estimated_fee_total_aud": 11.89,
     "estimated_spread_and_slippage_total_aud": 2.27,
-    "current_exposure_pct": 18.29,
+    "current_exposure_pct": 18.35,
     "estimated_round_trip_cost_pct_before_spread": 1.4,
     "risk_budget_per_new_trade_pct": 1.0,
-    "btc_hold_baseline_liquidation_aud": 858.38,
-    "btc_hold_baseline_net_pnl_aud": -141.62,
+    "btc_hold_baseline_liquidation_aud": 861.52,
+    "btc_hold_baseline_net_pnl_aud": -138.48,
     "sample_warning": "A small 30-day paper sample cannot establish persistent profitability, Sharpe or market-timing skill."
   },
-  "signals_checked_at_utc": "2026-11-22T14:13:54Z",
+  "signals_checked_at_utc": "2026-11-22T15:05:23Z",
   "signals": {
     "BTC-USD": {
-      "rsi14": 56.6039408752056,
-      "change_24h": 0.0032979502983323528,
-      "relative_volume": 0.629991076690732,
-      "relative_volume_24h": 0.5386137879004188,
+      "rsi14": 58.5776814074449,
+      "change_24h": 0.010023677992581526,
+      "relative_volume": 0.26266178605632307,
+      "relative_volume_24h": 0.6819043910259817,
       "same_hour_volume_samples": 8,
-      "hourly_volatility": 0.006365265772962316,
-      "last_hour_return": -0.001649485418489638,
+      "hourly_volatility": 0.00634221985448069,
+      "last_hour_return": 0.0031177831193560657,
       "entry_shock_filter_triggered": false,
-      "eligible": true,
-      "score": 2.2581425241166992
+      "eligible": false,
+      "score": -100
     },
     "LTC-USD": {
-      "rsi14": 50.04194630872489,
-      "change_24h": -0.00967267469398947,
-      "relative_volume": 0.7092741579758751,
-      "relative_volume_24h": 0.5832097970266564,
+      "rsi14": 52.53890253890245,
+      "change_24h": -0.010241877346061079,
+      "relative_volume": 0.46397444861477166,
+      "relative_volume_24h": 0.6486831818419719,
       "same_hour_volume_samples": 8,
-      "hourly_volatility": 0.005519123812184381,
-      "last_hour_return": 0.0009322717194113483,
+      "hourly_volatility": 0.005505667458562699,
+      "last_hour_return": 0.0022655758338576693,
       "entry_shock_filter_triggered": false,
       "eligible": false,
       "score": -100
     },
     "ADA-USD": {
-      "rsi14": 51.02481121898595,
-      "change_24h": 0.004593221518546908,
-      "relative_volume": 1.1252063321470984,
-      "relative_volume_24h": 1.6298679979141069,
+      "rsi14": 51.406926406926466,
+      "change_24h": -0.00124524386025604,
+      "relative_volume": 0.31047926005498183,
+      "relative_volume_24h": 0.6301713681679589,
       "same_hour_volume_samples": 8,
-      "hourly_volatility": 0.005626424979412289,
-      "last_hour_return": -0.006333035038204704,
+      "hourly_volatility": 0.005490404317789105,
+      "last_hour_return": 0.00013855213023905577,
       "entry_shock_filter_triggered": false,
-      "eligible": true,
-      "score": 1.9178330770613612
+      "eligible": false,
+      "score": -100
     }
   },
   "latest_prices": {
     "BTC-USD": {
-      "usd": 60682.07,
-      "aud_proxy": 91033.57386099402,
-      "bid_aud": 91033.57386099402,
-      "ask_aud": 91033.58886271922,
-      "spread_fraction": 1.64793310084358e-07,
-      "ticker_time_utc": "2026-11-22T14:13:53Z"
+      "usd": 60904.24,
+      "aud_proxy": 91366.8671897268,
+      "bid_aud": 91369.11744850657,
+      "ask_aud": 91369.13245023177,
+      "spread_fraction": 1.6418812383030975e-07,
+      "ticker_time_utc": "2026-11-22T15:05:22Z"
     },
     "LTC-USD": {
-      "usd": 39.834,
-      "aud_proxy": 59.75787215529786,
-      "bid_aud": 59.735369567500264,
-      "ask_aud": 59.74737094765898,
-      "spread_fraction": 0.0002008889335307628,
-      "ticker_time_utc": "2026-11-22T14:13:47Z"
+      "usd": 39.824,
+      "aud_proxy": 59.74287043009946,
+      "bid_aud": 59.739870085059785,
+      "ask_aud": 59.74587077513914,
+      "spread_fraction": 0.00010044194455599094,
+      "ticker_time_utc": "2026-11-22T15:05:21Z"
     },
     "ADA-USD": {
-      "usd": 0.14476,
-      "aud_proxy": 0.21716497397200676,
-      "bid_aud": 0.21714997224680838,
-      "ask_aud": 0.21717997569720518,
-      "spread_fraction": 0.0001381597126279359,
-      "ticker_time_utc": "2026-11-22T14:13:53Z"
+      "usd": 0.14437,
+      "aud_proxy": 0.21657990668926927,
+      "bid_aud": 0.21677492911684842,
+      "ask_aud": 0.21683493601764203,
+      "spread_fraction": 0.0002767783005813192,
+      "ticker_time_utc": "2026-11-22T15:05:00Z"
     }
   },
   "aud_usd_reference": 0.66659,
