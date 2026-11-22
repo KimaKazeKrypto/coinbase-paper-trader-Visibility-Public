@@ -175,3 +175,4 @@ timestamp_utc,candle,net_equity_aud,cash_aud,held_product,decision
 2026-11-22T07:34:44Z,1795327200,971.5591058157233,971.5591058157233,,HOLD CASH: cooldown after last simulated trade
 2026-11-22T09:02:32Z,1795334400,971.5591058157233,971.5591058157233,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
 2026-11-22T10:01:52Z,1795338000,969.0577440069816,791.6407528868857,BTC-USD,BUY BTC: strongest qualifying signal (score 3.57)
+2026-11-22T11:00:10Z,1795338000,969.036279091188,791.6407528868857,BTC-USD,HOLD BTC: risk checks passed; awaiting a new closed candle for trend signals
