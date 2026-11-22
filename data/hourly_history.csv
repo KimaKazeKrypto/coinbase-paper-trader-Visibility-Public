@@ -173,3 +173,4 @@ timestamp_utc,candle,net_equity_aud,cash_aud,held_product,decision
 2026-11-22T05:14:00Z,1795320000,971.5591058157233,971.5591058157233,,HOLD CASH: cooldown after last simulated trade
 2026-11-22T06:14:14Z,1795323600,971.5591058157233,971.5591058157233,,HOLD CASH: cooldown after last simulated trade
 2026-11-22T07:34:44Z,1795327200,971.5591058157233,971.5591058157233,,HOLD CASH: cooldown after last simulated trade
+2026-11-22T09:02:32Z,1795334400,971.5591058157233,971.5591058157233,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
