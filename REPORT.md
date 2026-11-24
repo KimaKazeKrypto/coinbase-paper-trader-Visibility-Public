@@ -5,47 +5,47 @@
 Status: **ACTIVE**  
 Started: 13 Nov 2026 08:59 AM AEST  
 Ends: 13 Dec 2026 08:59 AM AEST  
-Last checked: 24 Nov 2026 11:32 AM AEST  
-Decision: **HOLD BTC: risk checks passed**
+Last checked: 24 Nov 2026 01:08 PM AEST  
+Decision: **SELL BTC: Trailing stop; compare all three next hour**
 
 ## Account (Australian dollars)
 
 | Metric | Value |
 |---|---:|
 | Starting funds | A$1,000.00 |
-| Simulated available cash | A$791.64 |
-| Single current position | 0.00196042 BTC |
-| **Estimated liquidation balance** | **A$972.46** |
-| **Profit/loss to date** | **A$-27.54 (-2.75%)** |
-| Estimated fees paid | A$11.89 |
-| Completed trades | 5 (0 winners) |
+| Simulated available cash | A$967.06 |
+| Single current position | None (all cash) |
+| **Estimated liquidation balance** | **A$967.06** |
+| **Profit/loss to date** | **A$-32.94 (-3.29%)** |
+| Estimated fees paid | A$12.95 |
+| Completed trades | 6 (0 winners) |
 | Target range, not a guarantee | A$1,050–A$1,100 |
-| Max observed drawdown | 3.13% |
-| Current account exposure | 18.59% |
+| Max observed drawdown | 3.29% |
+| Current account exposure | 0.00% |
 | Per-new-trade loss budget (estimated, not guaranteed) | 1.00% |
 | Closed-trade win rate | 0.0 |
-| Mean profit per closed trade | A$-5.69 |
-| Estimated fees + quoted spread + extra slippage | A$14.16 |
-| Passive BTC reference liquidation | A$875.84 |
+| Mean profit per closed trade | A$-5.49 |
+| Estimated fees + quoted spread + extra slippage | A$15.39 |
+| Passive BTC reference liquidation | A$849.70 |
 
 ## Market-session context (clock-time proxies only)
 
-Current approximation: **Tokyo hours**, Brisbane time **24 Nov 2026 11:32 AM AEST**.  
-Tokyo: Tue 10:32 JST · London: Tue 01:32 GMT · New York: Mon 20:32 EST.
+Current approximation: **Outside stock-hour windows**, Brisbane time **24 Nov 2026 01:08 PM AEST**.  
+Tokyo: Tue 12:08 JST · London: Tue 03:08 GMT · New York: Mon 22:08 EST.
 
 | Entry-window label | Closed trades | Net P/L | Win rate |
 |---|---:|---:|---:|
 | London hours | 2 | A$-11.27 | 0.0% |
-| Outside stock-hour windows | 2 | A$-11.41 | 0.0% |
+| Outside stock-hour windows | 3 | A$-15.91 | 0.0% |
 | Tokyo hours | 1 | A$-5.76 | 0.0% |
 
 **Important:** Time windows describe typical stock trading hours, not crypto exchange opening times. Public holidays are not checked. Small sample sizes do not establish that any window is profitable. Same-hour volume comparisons remove some predictable daily volume seasonality; the agent does **not** auto-buy just because a session is open.
 
 ## Public market prices used (USD source, AUD reference conversion)
 
-- BTC-USD: Coinbase US$61,461.69000, indicative A$92,885.93 per coin; bid–ask spread 0.000%
-- LTC-USD: Coinbase US$41.81400, indicative A$63.19 per coin; bid–ask spread 0.029%
-- ADA-USD: Coinbase US$0.15021, indicative A$0.23 per coin; bid–ask spread 0.027%
+- BTC-USD: Coinbase US$59,626.90000, indicative A$90,113.04 per coin; bid–ask spread 0.000%
+- LTC-USD: Coinbase US$40.70800, indicative A$61.52 per coin; bid–ask spread 0.047%
+- ADA-USD: Coinbase US$0.14576, indicative A$0.22 per coin; bid–ask spread 0.041%
 
 Reference AUD/USD: **0.661690** dated 2026-11-23. Prices are indicative **converted proxies**, not guaranteed Coinbase AUD execution prices.
 
@@ -53,6 +53,7 @@ Reference AUD/USD: **0.661690** dated 2026-11-23. Prices are indicative **conver
 
 | Brisbane time | Side | Pair | Units | Simulated price (A$) | Estimated fee | Closed profit/loss | Decision reason |
 |---|---|---|---:|---:|---:|---:|---|
+| 24 Nov 2026 01:08 PM AEST | SELL | BTC-USD | 0.00196042 | A$90,022.93 | A$1.06 | A$-4.49 | Trailing stop |
 | 22 Nov 2026 08:01 PM AEST | BUY | BTC-USD | 0.00196042 | A$91,228.12 | A$1.07 | — | Best of three momentum signals; score 3.57; Too little closed-trade evidence to adapt |
 | 22 Nov 2026 02:12 PM AEST | SELL | ADA-USD | 827.49676957 | A$0.21 | A$1.06 | A$-6.04 | Trend reversal |
 | 22 Nov 2026 07:56 AM AEST | BUY | ADA-USD | 827.49676957 | A$0.22 | A$1.08 | — | Best of three momentum signals; score 2.85; Too little closed-trade evidence to adapt |
