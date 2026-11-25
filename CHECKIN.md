@@ -2,34 +2,34 @@
 
 > PAPER TRADING ONLY. No Coinbase account connected. No real orders.
 
-Last market check: **26 Nov 2026 06:12 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
+Last market check: **26 Nov 2026 07:14 AM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
 
 **Status:** ACTIVE (from 13 Nov 2026 08:59 AM AEST to 13 Dec 2026 08:59 AM AEST)  
-**Last decision:** HOLD CASH: no qualifying signal with acceptable bid–ask spread
+**Last decision:** BUY ADA: strongest qualifying signal (score 1.83)
 
 | What to report | Current simulation |
 |---|---:|
 | Starting balance | A$1,000.00 |
-| Current estimated liquidation value | **A$967.06** |
-| Net profit or loss, including estimated exit costs | **A$-32.94 (-3.29%)** |
-| Simulated cash available | A$967.06 |
-| Current holding | None (all cash) |
+| Current estimated liquidation value | **A$964.50** |
+| Net profit or loss, including estimated exit costs | **A$-35.50 (-3.55%)** |
+| Simulated cash available | A$787.98 |
+| Current holding | 794.93226529 ADA |
 | Realised profit or loss on completed trades | A$-32.94 |
-| Estimated fees paid to date | A$12.95 |
+| Estimated fees paid to date | A$14.02 |
 | Completed round-trip trades (winners) | 6 (0) |
-| Current drawdown from recorded peak | 3.29% |
-| Worst observed peak-to-trough drawdown | 3.29% |
-| Current portfolio exposure | 0.00% |
+| Current drawdown from recorded peak | 3.55% |
+| Worst observed peak-to-trough drawdown | 3.55% |
+| Current portfolio exposure | 18.30% |
 | Estimated risk limit per new trade, not guaranteed | 1.00% |
 | Closed-trade win rate | 0.0% |
 | Net mean per completed trade | A$-5.49 |
-| Fees + bid–ask effects + extra slippage estimate | A$15.39 |
-| BTC passive reference liquidation | A$859.99 |
+| Fees + bid–ask effects + extra slippage estimate | A$16.71 |
+| BTC passive reference liquidation | A$863.31 |
 | Desired monthly net profit (not guaranteed) | A$50 to A$100 |
 
 ## Regional market-clock context
 
-**Current stock-hours proxy:** New York hours. Tokyo Thu 05:12 JST, London Wed 20:12 GMT, New York Wed 15:12 EST.  
+**Current stock-hours proxy:** Outside stock-hour windows. Tokyo Thu 06:14 JST, London Wed 21:14 GMT, New York Wed 16:14 EST.  
 **Weekend by UTC:** No. Stock markets have holidays and closures; the agent does not check those calendars. **Crypto is open 24/7**. This context does not trigger a purchase or promise better results.
 
 | Entry window | Completed trades | Net profit/loss |
@@ -40,18 +40,19 @@ Last market check: **26 Nov 2026 06:12 AM AEST**. If this time is not recent, th
 
 ## Latest recorded trade signals
 
-Signals were last recorded: **26 Nov 2026 06:12 AM AEST**.
+Signals were last recorded: **26 Nov 2026 07:14 AM AEST**.
 
 | Permitted coin | Entry status | Signal score | RSI(14) | 24-hour momentum | Same-hour relative volume |
 |---|---|---:|---:|---:|---:|
-| BTC-USD | No signal | -100.00 | 57.9 | +0.35% | 1.27× |
-| LTC-USD | No signal | -100.00 | 71.6 | +4.23% | 1.30× |
-| ADA-USD | No signal | -100.00 | 60.1 | +1.68% | 1.40× |
+| BTC-USD | No signal | -100.00 | 60.5 | +0.84% | 1.03× |
+| LTC-USD | No signal | -100.00 | 72.5 | +4.08% | 0.95× |
+| ADA-USD | Qualifies | 1.83 | 60.0 | +2.22% | 0.67× |
 
 ## Most recent transactions
 
 | Brisbane time | Action | Closed net P/L | Estimated fee | Explanation |
 |---|---|---:|---:|---|
+| 26 Nov 2026 07:14 AM AEST | BUY ADA-USD | Position opened | A$1.07 | Best of three momentum signals; score 1.83; Too little closed-trade evidence to adapt |
 | 24 Nov 2026 01:08 PM AEST | SELL BTC-USD | A$-4.49 | A$1.06 | Trailing stop |
 | 22 Nov 2026 08:01 PM AEST | BUY BTC-USD | Position opened | A$1.07 | Best of three momentum signals; score 3.57; Too little closed-trade evidence to adapt |
 | 22 Nov 2026 02:12 PM AEST | SELL ADA-USD | A$-6.04 | A$1.06 | Trend reversal |
@@ -61,7 +62,6 @@ Signals were last recorded: **26 Nov 2026 06:12 AM AEST**.
 | 19 Nov 2026 01:14 AM AEST | SELL ADA-USD | A$-5.76 | A$1.07 | Trend reversal |
 | 18 Nov 2026 10:02 AM AEST | BUY ADA-USD | Position opened | A$1.09 | Best of three momentum signals; score 1.81; Too little closed-trade evidence to adapt |
 | 18 Nov 2026 03:22 AM AEST | SELL ADA-USD | A$-4.40 | A$1.09 | Trend reversal |
-| 17 Nov 2026 10:03 PM AEST | BUY ADA-USD | Position opened | A$1.10 | Best of three momentum signals; score 1.26; Too little closed-trade evidence to adapt |
 
 ## How to interpret
 
