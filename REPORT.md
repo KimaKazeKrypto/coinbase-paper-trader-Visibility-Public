@@ -5,8 +5,8 @@
 Status: **ACTIVE**  
 Started: 13 Nov 2026 08:59 AM AEST  
 Ends: 13 Dec 2026 08:59 AM AEST  
-Last checked: 28 Nov 2026 04:06 AM AEST  
-Decision: **HOLD CASH: cooldown after last simulated trade**
+Last checked: 28 Nov 2026 05:16 AM AEST  
+Decision: **HOLD CASH: no qualifying signal with acceptable bid–ask spread**
 
 ## Account (Australian dollars)
 
@@ -26,12 +26,12 @@ Decision: **HOLD CASH: cooldown after last simulated trade**
 | Closed-trade win rate | 0.0 |
 | Mean profit per closed trade | A$-5.32 |
 | Estimated fees + quoted spread + extra slippage | A$17.96 |
-| Passive BTC reference liquidation | A$845.72 |
+| Passive BTC reference liquidation | A$845.71 |
 
 ## Market-session context (clock-time proxies only)
 
-Current approximation: **New York hours**, Brisbane time **28 Nov 2026 04:06 AM AEST**.  
-Tokyo: Sat 03:06 JST · London: Fri 18:06 GMT · New York: Fri 13:06 EST.
+Current approximation: **New York hours**, Brisbane time **28 Nov 2026 05:16 AM AEST**.  
+Tokyo: Sat 04:16 JST · London: Fri 19:16 GMT · New York: Fri 14:16 EST.
 
 | Entry-window label | Closed trades | Net P/L | Win rate |
 |---|---:|---:|---:|
@@ -43,9 +43,9 @@ Tokyo: Sat 03:06 JST · London: Fri 18:06 GMT · New York: Fri 13:06 EST.
 
 ## Public market prices used (USD source, AUD reference conversion)
 
-- BTC-USD: Coinbase US$59,810.28000, indicative A$89,690.76 per coin; bid–ask spread 0.000%
-- LTC-USD: Coinbase US$43.82900, indicative A$65.73 per coin; bid–ask spread 0.032%
-- ADA-USD: Coinbase US$0.14926, indicative A$0.22 per coin; bid–ask spread 0.027%
+- BTC-USD: Coinbase US$59,810.01000, indicative A$89,690.35 per coin; bid–ask spread 0.000%
+- LTC-USD: Coinbase US$43.88000, indicative A$65.80 per coin; bid–ask spread 0.025%
+- ADA-USD: Coinbase US$0.14957, indicative A$0.22 per coin; bid–ask spread 0.020%
 
 Reference AUD/USD: **0.666850** dated 2026-11-27. Prices are indicative **converted proxies**, not guaranteed Coinbase AUD execution prices.
 
