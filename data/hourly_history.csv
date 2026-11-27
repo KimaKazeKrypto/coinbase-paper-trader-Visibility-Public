@@ -266,3 +266,4 @@ timestamp_utc,candle,net_equity_aud,cash_aud,held_product,decision
 2026-11-27T19:16:08Z,1795802400,962.7921797285485,962.7921797285485,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
 2026-11-27T20:16:23Z,1795806000,962.7921797285485,962.7921797285485,,HOLD CASH: no qualifying signal with acceptable bid–ask spread
 2026-11-27T21:17:50Z,1795809600,960.2777072768127,784.4973316306691,LTC-USD,BUY LTC: strongest qualifying signal (score 1.05)
+2026-11-27T23:11:55Z,1795816800,961.162541112823,784.4973316306691,LTC-USD,HOLD LTC: risk checks passed
