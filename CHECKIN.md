@@ -2,7 +2,7 @@
 
 > PAPER TRADING ONLY. No Coinbase account connected. No real orders.
 
-Last market check: **27 Nov 2026 07:29 PM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
+Last market check: **27 Nov 2026 09:09 PM AEST**. If this time is not recent, the runner may be paused or failing — **do not present stale data as live**.
 
 **Status:** ACTIVE (from 13 Nov 2026 08:59 AM AEST to 13 Dec 2026 08:59 AM AEST)  
 **Last decision:** HOLD ADA: risk checks passed
@@ -10,8 +10,8 @@ Last market check: **27 Nov 2026 07:29 PM AEST**. If this time is not recent, th
 | What to report | Current simulation |
 |---|---:|
 | Starting balance | A$1,000.00 |
-| Current estimated liquidation value | **A$969.49** |
-| Net profit or loss, including estimated exit costs | **A$-30.51 (-3.05%)** |
+| Current estimated liquidation value | **A$969.53** |
+| Net profit or loss, including estimated exit costs | **A$-30.47 (-3.05%)** |
 | Simulated cash available | A$787.98 |
 | Current holding | 794.93226529 ADA |
 | Realised profit or loss on completed trades | A$-32.94 |
@@ -19,17 +19,17 @@ Last market check: **27 Nov 2026 07:29 PM AEST**. If this time is not recent, th
 | Completed round-trip trades (winners) | 6 (0) |
 | Current drawdown from recorded peak | 3.05% |
 | Worst observed peak-to-trough drawdown | 3.72% |
-| Current portfolio exposure | 18.72% |
+| Current portfolio exposure | 18.73% |
 | Estimated risk limit per new trade, not guaranteed | 1.00% |
 | Closed-trade win rate | 0.0% |
 | Net mean per completed trade | A$-5.49 |
 | Fees + bid–ask effects + extra slippage estimate | A$16.71 |
-| BTC passive reference liquidation | A$876.11 |
+| BTC passive reference liquidation | A$874.15 |
 | Desired monthly net profit (not guaranteed) | A$50 to A$100 |
 
 ## Regional market-clock context
 
-**Current stock-hours proxy:** London hours. Tokyo Fri 18:29 JST, London Fri 09:29 GMT, New York Fri 04:29 EST.  
+**Current stock-hours proxy:** London hours. Tokyo Fri 20:09 JST, London Fri 11:09 GMT, New York Fri 06:09 EST.  
 **Weekend by UTC:** No. Stock markets have holidays and closures; the agent does not check those calendars. **Crypto is open 24/7**. This context does not trigger a purchase or promise better results.
 
 | Entry window | Completed trades | Net profit/loss |
@@ -40,13 +40,13 @@ Last market check: **27 Nov 2026 07:29 PM AEST**. If this time is not recent, th
 
 ## Latest recorded trade signals
 
-Signals were last recorded: **27 Nov 2026 07:29 PM AEST**.
+Signals were last recorded: **27 Nov 2026 09:09 PM AEST**.
 
 | Permitted coin | Entry status | Signal score | RSI(14) | 24-hour momentum | Same-hour relative volume |
 |---|---|---:|---:|---:|---:|
-| BTC-USD | No signal | -100.00 | 80.8 | +1.33% | 1.82× |
-| LTC-USD | No signal | -100.00 | 68.7 | +2.07% | 0.93× |
-| ADA-USD | Qualifies | 4.06 | 66.6 | +2.90% | 0.97× |
+| BTC-USD | No signal | -100.00 | 74.0 | +1.90% | 0.62× |
+| LTC-USD | Qualifies | 4.20 | 63.1 | +2.82% | 0.91× |
+| ADA-USD | No signal | -100.00 | 64.3 | +3.28% | 0.55× |
 
 ## Most recent transactions
 
