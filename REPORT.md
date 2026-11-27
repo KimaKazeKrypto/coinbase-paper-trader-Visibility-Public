@@ -5,54 +5,55 @@
 Status: **ACTIVE**  
 Started: 13 Nov 2026 08:59 AM AEST  
 Ends: 13 Dec 2026 08:59 AM AEST  
-Last checked: 27 Nov 2026 11:39 PM AEST  
-Decision: **HOLD ADA: risk checks passed**
+Last checked: 28 Nov 2026 01:15 AM AEST  
+Decision: **SELL ADA: Trailing stop; compare all three next hour**
 
 ## Account (Australian dollars)
 
 | Metric | Value |
 |---|---:|
 | Starting funds | A$1,000.00 |
-| Simulated available cash | A$787.98 |
-| Single current position | 794.93226529 ADA |
-| **Estimated liquidation balance** | **A$969.42** |
-| **Profit/loss to date** | **A$-30.58 (-3.06%)** |
-| Estimated fees paid | A$14.02 |
-| Completed trades | 6 (0 winners) |
+| Simulated available cash | A$962.79 |
+| Single current position | None (all cash) |
+| **Estimated liquidation balance** | **A$962.79** |
+| **Profit/loss to date** | **A$-37.21 (-3.72%)** |
+| Estimated fees paid | A$15.08 |
+| Completed trades | 7 (0 winners) |
 | Target range, not a guarantee | A$1,050–A$1,100 |
 | Max observed drawdown | 3.72% |
-| Current account exposure | 18.72% |
+| Current account exposure | 0.00% |
 | Per-new-trade loss budget (estimated, not guaranteed) | 1.00% |
 | Closed-trade win rate | 0.0 |
-| Mean profit per closed trade | A$-5.49 |
-| Estimated fees + quoted spread + extra slippage | A$16.71 |
-| Passive BTC reference liquidation | A$872.50 |
+| Mean profit per closed trade | A$-5.32 |
+| Estimated fees + quoted spread + extra slippage | A$17.96 |
+| Passive BTC reference liquidation | A$841.27 |
 
 ## Market-session context (clock-time proxies only)
 
-Current approximation: **London hours**, Brisbane time **27 Nov 2026 11:39 PM AEST**.  
-Tokyo: Fri 22:39 JST · London: Fri 13:39 GMT · New York: Fri 08:39 EST.
+Current approximation: **London–New York overlap**, Brisbane time **28 Nov 2026 01:15 AM AEST**.  
+Tokyo: Sat 00:15 JST · London: Fri 15:15 GMT · New York: Fri 10:15 EST.
 
 | Entry-window label | Closed trades | Net P/L | Win rate |
 |---|---:|---:|---:|
 | London hours | 2 | A$-11.27 | 0.0% |
-| Outside stock-hour windows | 3 | A$-15.91 | 0.0% |
+| Outside stock-hour windows | 4 | A$-20.18 | 0.0% |
 | Tokyo hours | 1 | A$-5.76 | 0.0% |
 
 **Important:** Time windows describe typical stock trading hours, not crypto exchange opening times. Public holidays are not checked. Small sample sizes do not establish that any window is profitable. Same-hour volume comparisons remove some predictable daily volume seasonality; the agent does **not** auto-buy just because a session is open.
 
 ## Public market prices used (USD source, AUD reference conversion)
 
-- BTC-USD: Coinbase US$61,399.79000, indicative A$92,533.67 per coin; bid–ask spread 0.000%
-- LTC-USD: Coinbase US$44.40000, indicative A$66.91 per coin; bid–ask spread 0.014%
-- ADA-USD: Coinbase US$0.15252, indicative A$0.23 per coin; bid–ask spread 0.033%
+- BTC-USD: Coinbase US$59,496.01000, indicative A$89,219.48 per coin; bid–ask spread 0.000%
+- LTC-USD: Coinbase US$43.40300, indicative A$65.09 per coin; bid–ask spread 0.035%
+- ADA-USD: Coinbase US$0.14769, indicative A$0.22 per coin; bid–ask spread 0.014%
 
-Reference AUD/USD: **0.663540** dated 2026-11-26. Prices are indicative **converted proxies**, not guaranteed Coinbase AUD execution prices.
+Reference AUD/USD: **0.666850** dated 2026-11-27. Prices are indicative **converted proxies**, not guaranteed Coinbase AUD execution prices.
 
 ## Simulated trade ledger (last 40 events)
 
 | Brisbane time | Side | Pair | Units | Simulated price (A$) | Estimated fee | Closed profit/loss | Decision reason |
 |---|---|---|---:|---:|---:|---:|---|
+| 28 Nov 2026 01:15 AM AEST | SELL | ADA-USD | 794.93226529 | A$0.22 | A$1.06 | A$-4.27 | Trailing stop |
 | 26 Nov 2026 07:14 AM AEST | BUY | ADA-USD | 794.93226529 | A$0.22 | A$1.07 | — | Best of three momentum signals; score 1.83; Too little closed-trade evidence to adapt |
 | 24 Nov 2026 01:08 PM AEST | SELL | BTC-USD | 0.00196042 | A$90,022.93 | A$1.06 | A$-4.49 | Trailing stop |
 | 22 Nov 2026 08:01 PM AEST | BUY | BTC-USD | 0.00196042 | A$91,228.12 | A$1.07 | — | Best of three momentum signals; score 3.57; Too little closed-trade evidence to adapt |
